@@ -24,7 +24,7 @@ namespace Actividad_6
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "Hola" + textBox1.Text;
+            label1.Text = "Hola " + textBox1.Text;
             textBox1.Text = "";
         }
     }
